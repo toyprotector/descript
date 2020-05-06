@@ -19,4 +19,6 @@ Though it seems to work without protocols on some urls, there's no guarantee.
 
 # This is a work in progress
 
-The idea of local proxies to edit a page's html was given by Cudder in 2017 or 2018, and only now I got to it. Am I a lazy bastard!
+The idea of local proxies to edit a page's html was given by Cudder in 2017 or 2018, and only now I got to it. 
+
+Am I a lazy bastard!
