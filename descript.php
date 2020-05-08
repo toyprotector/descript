@@ -10,8 +10,8 @@
 
 
     $str = $body;
-    $pat = '/<\s*script/i';
-    $rep = '<fuckscript';
+    $pat = "/<\s*script/i";
+    $rep = "<fuckscript style=\"hidden\"";
     $str = preg_replace($pat, $rep, $str);
     $pat = "/<\s*\/\s*script/i";
     $rep = "</fuckscript";
