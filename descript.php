@@ -11,10 +11,10 @@
 
     $str = $body;
     $pat = "/<\s*script/i";
-    $rep = "<div style=\"visibility: hidden\"";
+    $rep = "<javashit style=\"display: none\"";
     $str = preg_replace($pat, $rep, $str);
     $pat = "/<\s*\/\s*script/i";
-    $rep = "</div";
+    $rep = "</javashit";
     $str = preg_replace($pat, $rep, $str);
     echo $str;
 

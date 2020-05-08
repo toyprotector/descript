@@ -1,3 +1,15 @@
-<form action="/descript.php" method="GET" >
-<input name="url" />
-</form>
+<html>
+<!--form action="/descript.php" method="GET" -->
+<input id="url" size="100"  name="url" />
+<button onclick="go()" >Go</button>
+<!--/form-->
+<iframe src="" id="ifr" width="80%" height="80%"></iframe>
+
+<script>
+myurl=document.getElementById("url");
+myiframe=document.getElementById("ifr");
+function go(){
+    myiframe.src = "/descript.php?url=" +myurl.value;
+}
+</script>
+</html>
