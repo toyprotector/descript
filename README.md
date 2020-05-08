@@ -7,15 +7,9 @@ Inside the project's directory type:
 
 > php -S localhost:8080
 
-Then access localhost:8080 from a web browser, enter the desired web page's url to the input element and press enter.
-
-Alternatively go directly to:
-
-> localhost:8080/descript.php?url=\<url\>
+Then access localhost:8080 from a web browser, enter the desired web page's url to the input element and press the button.
 
 The url needs to contain the protocol, either http or https; it does not follow redirects automatically.
-
-Though it seems to work without protocols on some urls, there's no guarantee.
 
 # This is a work in progress
 
