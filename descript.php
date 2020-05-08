@@ -11,7 +11,7 @@
 
     $str = $body;
     $pat = "/<\s*script/i";
-    $rep = "<div style=\"hidden\"";
+    $rep = "<div style=\"visibility: hidden\"";
     $str = preg_replace($pat, $rep, $str);
     $pat = "/<\s*\/\s*script/i";
     $rep = "</div";
