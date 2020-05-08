@@ -13,8 +13,8 @@
     $pat = '/<\s*script/i';
     $rep = '<fuckscript';
     $str = preg_replace($pat, $rep, $str);
-    $pat = "/<\s*\/\s*script/i"
-    $rep = "</fuckscript"
+    $pat = "/<\s*\/\s*script/i";
+    $rep = "</fuckscript";
     $str = preg_replace($pat, $rep, $str);
     echo $str;
 
